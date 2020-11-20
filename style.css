@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:linear-gradient(white, #6ea9c2);
+}
+input, li {
+    margin-Bottom: 10px;
+}
+video{
+    outline: none;
+}
+
+
+.binouze{
+    margin-top: 20px;
+    width: 50%
+}
+
+.barremenu{
+    background-color: #004d6d;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.menu li {
+    list-style: none;
+    display:inline;
+    margin-top: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 50px;
+}
+
+.boutonmenu{
+    border: 2px solid white;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 10px 10px / 50px;
+}
+
+.boutonmenu:hover {
+    background-color: #fcbe03;
+}
+
+.center{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.imageProfile{
+    float: left;
+    margin-right: 40px;
+}
+
+.paragraphe1{
+    width: 50%;
+    margin-top: 100px;
+    color: green;
+}
+.users tr:nth-child(even){
+    background-color: lightgray;
+}
+
+
+th {
+    width: 150px;
+}
+.divformulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

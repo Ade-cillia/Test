@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Cours HTML1</title>
+    <link rel="shortcut icon" href="image/flavicon2.ico">
+</head>
+<body>
+    <header>
+        <nav class="barremenu">
+            <div class="flex">
+                <img class="binouze" src="image/logo.png" alt="logo du site c'est cheese">
+            </div>
+            <ul class="menu">
+                <li><a class="boutonmenu" href="index.html">Accueil</a></li>
+                <li><a class="boutonmenu" href="Contact.html">Contact</a></li>
+                <li><a class="boutonmenu" href="FAQ.html"> FAQ </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="flex banniere">
+            <video  width="800" height="450" muted  controls autoplay>
+                <source src="video/pubvideo2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <img class="imageProfile" src="image/imageProfile.png" alt="mon image favorite"/>
+        <h1>Resto Favoris :</h1>
+        <ol Type="A">
+            <li><a href="https://www.mcdonalds.fr">Macdo</a></li>
+            <li><a href="https://www.burgerking.fr">Burger King</a></li>
+            <li><a href="https://www.quick.fr">Quick</a></li>
+        </ol >
+        <p class="paragraphe1"> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</span>
+        </p><br/>
+
+        <form action="formulaire">
+            <label for=""> Nom et Prénom : </label>
+            <br/>
+            <input type="text" placeholder="Nom" name="name">
+            <input type="text" placeholder="Prénom" name="firstname">
+            <br/>
+            <label for=""> Date de naissance : </label>
+            <br/>
+            <input type="number" placeholder="Jour" name="day" min="1" max="31">
+            <input type="number" placeholder="Mois" name="month" min="1" max="12">
+            <input type="number" placeholder="Années" name="years" min="1"  >
+            <br/>
+            <label for=""> Adresse : </label>
+            <br/>
+            <input type="Texte" placeholder="Rue" name="streetaddress" size="82" ><br/>
+            <input type="Texte" placeholder="Ville" name="cityaddress" size="38" >
+            <input type="number" placeholder="Code postale" name="postalcode" size="60" min="1">
+            <br/>
+            <label for=""> Message : </label><br/>
+            <textarea rows="7" cols="84"></textarea><br/>
+            <label for="checkaccepte" placeholder="Votre message"> J'accepte d'envoyer le formulaire</label>
+            <input type="checkbox" id="checkaccepte"><br/>
+            <input type="reset" value="Reset"><br/>
+            <input type="submit" value="Envoyer">
+        </form>
+    </footer>
+    <div class="divformulaire">
+        <h1>Accueil</h1>
+        <table class="users">
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Âge</th>
+                <th>Couleur préférée</th>
+            </tr>
+            <tr>
+                <td>DE CILLIA</td>
+                <td>Aurélien</td>
+                <td class="center">18 ans</td>
+                <td class="center">Rouge</td>
+            </tr>
+            <tr>
+                <td>Jamy</td>
+                <td>Erosia</td>
+                <td class="center">25 ans</td>
+                <td class="center">Bleu</td>
+            </tr>
+            <tr>
+                <td>Timoté</td>
+                <td>DORIRIE</td>
+                <td class="center">115 ans</td>
+                <td class="center">Noir</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
